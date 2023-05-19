@@ -1,0 +1,255 @@
+@import url{"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"}
+
+:root {
+    --background: #02050e
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #585c5f;
+    padding: 1rem;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header {
+    width:100%;
+    background-color: #585c5f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+}
+
+header img{
+    width: 90px;
+    height: 70px;
+}
+
+
+nav li:first-child>a {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+main {
+    background-color: rgb(194, 213, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+
+}
+
+/*section */
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.hero-info h1{
+    font-size: 32px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.hero-info p{
+    font-size: 18px;
+    width: 70%;
+    color: rgb(0, 0, 0);
+
+}
+
+.hero-info p>span{
+    font-weight: 800;
+}
+
+.hero-info a{
+    color:white;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    padding: 8px 0;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+
+.conteiner-a{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 20px;
+}
+
+.hero-card{
+    width: 400px;
+    background-color: rgb(78, 199, 255);
+    padding:5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.hero-card-info{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.hero-card-top{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hero-card-top h3{
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hero-card-top span{
+    background-color:  rgb(0, 81, 255);
+    text-align: center;
+    width: 50px;
+    padding: 3px 0;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.hero-card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-card-creator {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.hero-card-creator img {
+    width: 40px;
+    height: 50px;
+}
+
+.creator-info p:first-child,
+.hero-card-price p{
+    color:gainsboro;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+
+/*footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+#info{
+    padding: 70px 0;
+    max-width: 1200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#info h2{
+    color:rgb(0, 0, 0);
+    font-size:32px;
+    font-weight: 900;
+}
+
+.info-cards-conteiner{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card{
+    width: 90%;
+    height: 90%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    gap: 20;
+}
+
+.info-card img{
+    width: 50px;
+}
+
+.info-card h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info-card p{
+    padding: 30px 0;
+    font-size:18px ;
+    font-weight:300 ;
+    color:white;
+}
+

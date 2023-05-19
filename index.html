@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />   
+</head>
+
+
+<body>
+    <header>
+        <img src="./ign.png" alt="ign" class="logo">
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/menu.png" alt="" class="menu-icon" />
+            </label>
+            <input type="checkbox" id="menu-toggle" />
+            
+                <ul class="navbar-list">
+                    <li> <a href="#" class="nav__link">Home</a></li>
+                    <li> <a href="#" class="nav__link">Contacto</a></li>
+                    <li> <a href="#" class="nav__link">Servicios</a></li>
+                    <li> <a href="#" class="nav__link">Cursos</a></li>
+                    <li> <a href="#" class="nav__link">Nosotros</a></li>
+                </ul>
+        </nav>
+        <label for="cart-toggle" class="cart-label">
+            <img src="./assets/img/cart-icon.svg" alt="Carrito de compras" class="cart-icon" />
+          </label>
+          <input type="checkbox" id="cart-toggle" />
+    
+          <!-- cart -->
+          <div class="cart">
+            <h2>Tus compras</h2>
+    
+            <div class="cart-item">
+              <img src="./assets/img/cart/cart-img.png" alt="Nft del carrito" />
+              <div class="item-info">
+                <h3 class="item-title">Carta topográfica San Miguel del Monte</h3>
+                <p class="item-bid">Escala 100 k</p>
+                <span class="item-price">$ 5000</span>
+              </div>
+              <div class="item-handler">
+                <span class="quantity-handler down">-</span>
+                <span class="item-quantity">1</span>
+                <span class="quantity-handler up">+</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="./assets/img/cart/topo_bari.jpg" alt="Nft del carrito" />
+              <div class="item-info">
+                <h3 class="item-title">Carta topográfica Bariloche</h3>
+                <p class="item-bid">Escala 500 k</p>
+                <span class="item-price">$ 5000</span>
+              </div>
+              <div class="item-handler">
+                <span class="quantity-handler down">-</span>
+                <span class="item-quantity">1</span>
+                <span class="quantity-handler up">+</span>
+              </div>
+            </div>
+            
+    
+            <span class="divider"></span>
+            <div class="cart-total">
+              <p>Total:</p>
+              <span>$ 10000</span>
+            </div>
+            <button class="btn-add">Comprar</button>
+          </div>
+        </nav>
+    </header>
+
+
+    <main>
+    <section id="hero">
+        <div class="hero-info">
+            <h1>INSTITUTO GEOGRÁFICO NACIONAL</h1>
+            <p>Nuestra misión: Ser el organismo líder en la producción y difusión de conocimiento e información geográfica de la República Argentina.</p>
+            <div class="conteiner-a">
+                <a href="#">Mapa interactivo</a>
+                <a href="#">Descarga de información</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <img src="./ign.jpg" alt="ign">
+            <!--<div class="hero-card-info">
+                <div class="hero-card-top">
+                    <h3>"The Greatest of All Time"</h3>
+                    <span>10</span>
+                </div>
+                <div class="hero-card-bottom">
+                    <div class="hero-card-creator">
+                        <img src="./creator.jpg" alt="creador">
+                        <div class="creator-info">
+                            <p>Creador</p>
+                            <p>Carles Rexach</p>
+                        </div>
+                    </div>
+                    <div class="hero-card-value">
+                        <p>Value</p>
+                        <span>9 ETH</span>
+                    </div>
+                </div>
+            </div>-->
+
+        </div>
+    </section>
+    <section id="info">
+        <h2>Valores</h2>
+        <div class="info-cards-conteiner">
+            <div class="info-card">
+                <img src="./icono.png" alt="">
+                <p>
+                   Nuestro valor fundamental es generar productos y servicios de información geoespacial con un alto rigor técnico y metodológico en todas sus fases, utilizando estándares de calidad reconocidos internacionalmente, a fin de satisfacer adecuadamente las necesidades de los usuarios.>
+                </p>
+            </div>
+          
+        </div>
+    </section>
+
+
+    </main> 
+    <footer>
+        <div>
+          <ul class="footer-links">
+            <li><a href="#">Términos de Uso</a></li>
+            <li><a href="#">Soporte</a></li>
+          </ul>
+        </div>
+        <p>Todos los derechos reservados <span>INSTITUTO GEOGRÁFICO</span></p>
+      </footer>
+</body>
+</html>
