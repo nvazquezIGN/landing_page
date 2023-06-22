@@ -584,3 +584,125 @@ footer span {
 #cart-toggle:checked+.cart {
     display: flex;
 }
+
+___
+
+#curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    max-width: 1200px;
+    width: 100%;
+    gap: 80px;
+ }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    max-width: 300px;
+  
+    background: linear-gradient(0deg, #282c34 0%, rgba(17, 0 32, 0.5) 100%);
+    border: 5px solid #1dc025c4;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 7px 20px 5px #0e4603;
+    padding: 1rem;
+  
+    transition: all 0.7s ease;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  .card-header img {
+    object-fit: cover;
+    border-radius: 0.5rem;
+    height: 250px;
+  }
+  
+  .card-header h2 {
+    font-size: 2rem;
+    color: white;
+    gap: 1rem;
+  }
+  
+  .card-body {
+    color: #e6e4eb;
+  }
+  
+  .info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .info p {
+    font-size: 16px;
+  }
+  
+  .card::before {
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.644);
+    top: -10%;
+    left: -100%;
+    transform: rotate (-45deg);
+    height: 60rem;
+    transition: 0.25s all;
+  }
+  
+  .card:hover::before {
+    filter: brightness(0.5);
+    top: -100%;
+    left: 200%;
+  }
+  
+  .card:hover {
+    border: 5px solid #00ff00ad;
+    box-shadow: 0 7px 25px 10px #121116a1;
+    transform: scale(1.015);
+    transition: 0.7s all;
+  }
+  
+  .button {
+    background-color: #528f46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.3px solid black;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: darkseagreen;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.7s linear;
+    border-radius: 6px;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0e4603;
+    transition: all 0.3s linear;
+  }
+  
